@@ -1,0 +1,8 @@
+zuul:
+  routes:
+    serviceA:
+      path: /greetings-api/**
+      serviceId: greeting-service
+    serviceB:
+      path: /tasks-api/**
+      serviceId: task-service
